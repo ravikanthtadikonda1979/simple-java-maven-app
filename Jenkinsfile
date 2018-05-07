@@ -2,6 +2,7 @@ pipeline {
 
     agent {
         docker {
+            sudo su
             image 'maven:3-alpine'
             args '-v /root/.m2:/root/.m2'
         }
