@@ -1,6 +1,5 @@
 pipeline {
-git s
-    }
+
     stages {
         stage('Build') {
             steps {
